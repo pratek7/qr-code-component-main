@@ -17,7 +17,7 @@
 .wrapper {
   background: hsl(0, 0%, 100%);
   border-radius: 20px;
-  width: 20%;
+
   height: fit-content;
   padding: 20px;
 }
@@ -44,8 +44,8 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media only screen and (max-width: 600px) {
+@media (min-width: 500px) {
   .wrapper {
-    width: 85%;
+    width: 400px;
   }
 }
